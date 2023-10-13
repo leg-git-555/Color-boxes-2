@@ -1,0 +1,38 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #2a2f3b;
+}
+
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block
+}
+
+.box-1 { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #ea907c; 
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block
+}
+.box-2 { background-color: #33FF57; }
+.box-3 { background-color: #5733FF; }
+.box-4 { background-color: #FF33A6; }
+.box-5 { background-color: #33A6FF; }
+.box-6 { background-color: #A6FF33; }
+.box-7 { background-color: #FF3380; }
+.box-8 { background-color: #3380FF; }
+.box-9 { background-color: #3c569f; }
+.box-10 { background-color: #FF3366; }
